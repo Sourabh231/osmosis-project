@@ -1,0 +1,195 @@
+.explore-container {
+    margin: 0;
+  }
+  
+  .header_explorer {
+    margin-bottom: 20px;
+  }
+  
+  .growing {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .growing h3 {
+    margin-bottom: 20px;
+  }
+  
+  .main-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .growing-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Show 4 cards in a row */
+    gap: 20px; /* Adjust the gap as needed */
+  }
+  
+  .images {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+  }
+  
+  .slick-slider {
+    padding-left: 20px;
+  }
+  
+  .slick-prev {
+    z-index: 1;
+  }
+  
+  .slick-next {
+    z-index: 1;
+  }
+
+  .Managing{
+    margin-top: 40px;
+  }
+
+  .prev{
+    width: 70px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: #0d1117;
+    border: 1px solid rgb(49, 54, 61);
+    color: rgba(255, 255, 255, 0.5);
+    color: rgb(179, 178, 178) !important;
+  }
+
+  .next{
+    width: 70px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: #0d1117;
+    border: 1px solid rgb(49, 54, 61);
+    color: rgba(255, 255, 255, 0.5);
+    color: rgb(179, 178, 178) !important;
+  }
+
+  /* .footer{
+    margin-top: 40px;
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+  } */
+
+
+  /* Add these styles to your Explore.css file */
+
+.footer {
+    margin-top: 40px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(79, 150, 189);
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    ;
+  }
+  
+  .footer img {
+    width: 150px; /* Adjust the width as needed */
+    filter: brightness(0) invert(1);
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  /* Center the logo and paragraph text in the footer */
+  .footer img,
+  .footer p {
+    text-align: center;
+  }
+  
+  /* Responsive styles for the footer */
+  @media screen and (max-width: 768px) {
+    .footer {
+      flex-wrap: wrap;
+      text-align: center;
+    }
+  
+    .footer a {
+      flex: 1 0 auto;
+      margin: 10px 0;
+    }
+  
+    .footer img {
+      margin: 10px 0;
+    }
+  
+    .footer p {
+      flex: 1 0 100%;
+      margin: 10px 0;
+    }
+  }
+
+  .footerosmosis{
+    background-color: aqua;
+    clear: both; /* Add clear property to prevent overlapping */
+    padding: 10px; /* Add padding for spacing */
+    
+  }
+
+  .footerosmosis .osmosislearn{
+    text-align: right; /* Align the text to the right without using float */
+     font-size: 16px;
+     color: black;
+  } 
+  
+  .slick-dots li button:before {
+    color: rgb(179, 178, 178) !important;
+    font-size: 10px !important;
+    margin-top: 10px;
+  }
+  
+  .slick-dots button {
+    /* background-color: blue !important; */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: white !important;
+  }
+  
+  /* Responsive styles for screens with a maximum width of 768px */
+  @media screen and (max-width: 768px) {
+    .main-container {
+        margin: 0 0.5rem; /* Adjust the margins for smaller screens */
+    }
+    
+      .growing-container {
+        grid-template-columns: 1fr; /* Show 1 card in a row (single column) */
+        gap: 10px; /* Reduce the gap between cards for better spacing */
+      }
+  
+    .growing-container {
+      grid-template-columns: repeat(2, 1fr); /* Show 2 cards in a row */
+    }
+  }
+  
+  /* Additional responsive styles for screens with a maximum width of 480px */
+  @media screen and (max-width: 480px) {
+    .main-container {
+      margin: 0 0.5rem; /* Adjust the margins for smaller screens */
+    }
+  
+    .growing-container {
+      grid-template-columns: 1fr; /* Show 1 card in a row (single column) */
+      gap: 10px; /* Reduce the gap between cards for better spacing */
+    }
+  }
+  

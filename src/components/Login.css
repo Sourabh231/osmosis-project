@@ -1,0 +1,86 @@
+.loginform {
+    height: 100vh; /* Set the login form to occupy the full height of the viewport */
+    display: flex;
+    justify-content: center; /* Horizontally center the login form */
+    align-items: center; /* Vertically center the login form */
+    background-color: rgba(0, 0, 0, 0.8); /* Add a semi-transparent overlay */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .popup_login {
+    z-index: 99999;
+    width: 40%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff; /* Set the background color for the popup */
+  }
+  
+  .popup_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 0 15px;
+    border-bottom: 2px solid black;
+  }
+  
+  .close {
+    cursor: pointer;
+  }
+  
+  .notmem {
+    float: left;
+    margin-top: 10px;
+  }
+  
+  .inputBox {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  input {
+    width: 80%;
+    padding: 10px;
+  }
+  
+  .forgetpass {
+    float: right;
+    margin-right: 70px;
+  }
+
+  .button{
+    margin-top: 50px;
+  }
+
+  /* .or_line{
+    border-bottom: 1px solid black;
+  } */
+
+  /* YourStyles.css */
+
+.or_line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .line {
+    flex: 1;
+    height: 1px;
+    background-color: rgb(200, 194, 194);
+  }
+  
+  
+  /* Media Query for Mobile View */
+  @media screen and (max-width: 768px) {
+    .popup_login {
+      width: 80%;
+    }
+  }
+  
+  
